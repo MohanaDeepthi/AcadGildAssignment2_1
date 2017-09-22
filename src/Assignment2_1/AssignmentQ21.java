@@ -15,13 +15,13 @@ public class AssignmentQ21 {
       thirdNum = in.nextInt();
       //comparision logic to find out highest number
       if ( firstNum > secondNum && firstNum > thirdNum )
-         System.out.println("First number is largest."+firstNum);
+         System.out.println("First number is largest "+firstNum);
       else if ( secondNum > firstNum && secondNum > thirdNum )
-         System.out.println("Second number is largest."+secondNum);
+         System.out.println("Second number is largest "+secondNum);
       else if ( thirdNum > firstNum && thirdNum >secondNum  )
-         System.out.println("Third number is largest."+thirdNum);
+         System.out.println("Third number is largest "+thirdNum);
       else   
-         System.out.println("Entered numbers are not distinct.");
+         System.out.println("Entered numbers are not distinct ");
       //close scanner
       in.close();
    }
